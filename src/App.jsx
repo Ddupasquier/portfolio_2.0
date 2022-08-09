@@ -38,7 +38,7 @@ function App() {
         <Background />
         <Head />
         <div className="content">
-          <Grid.Container gap={2}>
+          <Grid.Container gap={3}>
             <Grid sm={6} xs={12}>
               <Card
                 variant="flat"

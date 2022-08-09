@@ -61,7 +61,7 @@ function Projects() {
   ];
 
   return (
-    <Collapse.Group accordion="false">
+    <Collapse.Group accordion="false" divider="false">
       {projectItems.map((project, index) => (
         <ProjectItem key={index} project={project} index={index} />
       ))}
