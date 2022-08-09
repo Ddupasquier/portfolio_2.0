@@ -48,13 +48,11 @@ function App() {
                 }}
               >
                 <Card.Body>
-                  <Text>
-                    Full-Stack Software Developer with ten years of experience
-                    in areas of carpentry, plumbing and electrical work. This
-                    work has prepared me to excel in a tech environment that
-                    requires creative, constructive, and critical thinking
-                    skills. My experience doing hands-on work combined with the
-                    technical skills acquired at Flatiron School{' '}
+                  <Text size="1.1rem">
+                    Recent Full Stack graduate actively seeking to pivot into a
+                    challenging and rewarding Front-End Development role. With
+                    over 10+ years of work experience in customer facing roles,
+                    and my recent education at Flatiron School of Engineering{' '}
                     <a
                       href={FlatCert}
                       target="_blank"
@@ -62,9 +60,11 @@ function App() {
                     >
                       (Certificate of completion found here)
                     </a>
-                    . School's Software Engineering bootcamp will allow me to
-                    make excellent contributions to the world of tech, software
-                    development, and computer science.
+                    , I am eager to translate my skills in Creativity, Critical
+                    and Analytical Thinking, and Technical Aptitude to the
+                    betterment of a Development Team. If you are looking for a
+                    Flexible/Agile, Dependable/Trustworthy, and Industrious
+                    Developer than contact me as we might be a good match.
                   </Text>
                 </Card.Body>
               </Card>
@@ -101,13 +101,13 @@ function App() {
                 <Card.Body>
                   <Text>
                     I am proficient in building full-scale websites using React
-                    and Ruby on Rails. I'm a full-stack, junior level developer
-                    with a preference towards the front-end. At the top-right of
-                    this segment there is a link where you can download and view
-                    my resume. Included on this page is a collection of personal
-                    projects that I've worked on recently, which is consistently
-                    being updated with new content, as well as a contact section
-                    if you would like to contact me.
+                    and Ruby on Rails. I'm a full-stack (front-end leaning),
+                    junior level developer. At the top-right of this segment
+                    there is a link where you can download and view my resume.
+                    Included on this page is a collection of personal projects
+                    that I've worked on recently, which is consistently being
+                    updated with new content, as well as a contact section if
+                    you would like to contact me.
                   </Text>
                 </Card.Body>
               </Card>
@@ -128,7 +128,7 @@ function App() {
                 </Card.Body>
               </Card>
             </Grid>
-            <Grid sm={4} xs={12}>
+            <Grid sm={5} xs={12}>
               <Card
                 css={{
                   backdropFilter: 'saturate(200%) blur(8px)',
@@ -142,13 +142,29 @@ function App() {
                 <Card.Body>
                   <Text>Email: dylandupasquier@gmail.com</Text>
                   <Text>
-                    Linkedin: https://www.linkedin.com/in/dylan-dupasquier/
+                    Linkedin:{' '}
+                    <a
+                      href="https://www.linkedin.com/in/dylan-dupasquier/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      https://www.linkedin.com/in/dylan-dupasquier/
+                    </a>
                   </Text>
-                  <Text>Github: https://github.com/Ddupasquier </Text>
+                  <Text>
+                    Github:{' '}
+                    <a
+                      href="https://github.com/Ddupasquier/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      https://github.com/Ddupasquier/
+                    </a>
+                  </Text>
                 </Card.Body>
               </Card>
             </Grid>
-            <Grid sm={8} xs={12}>
+            <Grid sm={7} xs={12}>
               <Card
                 css={{
                   backdropFilter: 'saturate(200%) blur(8px)',

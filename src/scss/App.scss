@@ -1,9 +1,30 @@
 body {
   margin: 0;
 }
+
 header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #666666;
   position: fixed;
-  padding: 0.5rem;
+  padding: 1rem 1rem;
+  border-bottom-right-radius: 8px;
+  z-index: 1;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  a {
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    &:hover {
+      color: #868686;
+    }
+  }
 }
 
 .App {

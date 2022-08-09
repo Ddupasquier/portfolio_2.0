@@ -13,21 +13,49 @@ function ProjectItem({ project, index }) {
     <>
       {index === 0 ? (
         <Collapse title={project.title} expanded>
-          <Text>{project.title}</Text>
-          <Text>{project.description}</Text>
-          <Text>{project.github}</Text>
-          <Text>{project.live}</Text>
-          {/* <img src={project.image} alt={project.title} /> */}
-          <Text>{techs}</Text>
+          <div style={{ display: 'flex', gap: '1rem' }}>
+            <div>
+              <Text>{project.title}</Text>
+              <Text>{project.description}</Text>
+              <Text>
+                Github:{' '}
+                <a href={project.github} target="_blank" rel="noreferrer">
+                  {project.github}
+                </a>
+              </Text>
+              <Text>
+                Live:{' '}
+                <a href={project.live} target="_blank" rel="noreferrer">
+                  {project.live}
+                </a>
+              </Text>
+              <Text>{techs}</Text>
+            </div>
+            <img src={project.image} alt={project.title} />
+          </div>
         </Collapse>
       ) : (
         <Collapse title={project.title}>
-          <Text>{project.title}</Text>
-          <Text>{project.description}</Text>
-          <Text>{project.github}</Text>
-          <Text>{project.live}</Text>
-          {/* <img src={project.image} alt={project.title} /> */}
-          <Text>{techs}</Text>
+          <div style={{ display: 'flex', gap: '1rem' }}>
+            <div>
+              <Text>{project.title}</Text>
+              <Text>{project.description}</Text>
+              <Text>
+                Github:{' '}
+                <a href={project.github} target="_blank" rel="noreferrer">
+                  {project.github}
+                </a>
+              </Text>
+              <Text>
+                Live:{' '}
+                <a href={project.live} target="_blank" rel="noreferrer">
+                  {project.live}
+                </a>
+              </Text>
+              <Text>{techs}</Text>
+            </div>
+            <img src={project.image} alt={project.title} />
+          </div>
         </Collapse>
       )}
     </>
