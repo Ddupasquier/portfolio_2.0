@@ -1,2 +1,2 @@
-body{margin:0}.App{position:fixed;width:100vw;height:100vh}
+body{margin:0}header{position:fixed;padding:.5rem}.App{width:100vw;height:100vh}.content{width:90%;margin:auto;position:relative;top:4rem}.content .tech-icon{width:4vw}
 /*# sourceMappingURL=App.min.css.map */

@@ -1,13 +1,13 @@
 import React from 'react';
 
 function Background() {
-const bgStyle={
-  position: 'fixed',
-  top: 0,
-  left: 0,
-  width: '100%',
-  height: '100%',
-}
+  const bgStyle = {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100vw',
+    height: '100%',
+  };
 
   return (
     <img

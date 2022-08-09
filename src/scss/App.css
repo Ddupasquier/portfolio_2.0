@@ -2,9 +2,23 @@ body {
   margin: 0;
 }
 
-.App {
+header {
   position: fixed;
+  padding: 0.5rem;
+}
+
+.App {
   width: 100vw;
   height: 100vh;
+}
+
+.content {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  top: 4rem;
+}
+.content .tech-icon {
+  width: 4vw;
 }
 /*# sourceMappingURL=App.css.map */
