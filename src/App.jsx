@@ -91,6 +91,22 @@ function App() {
                 </Card.Body>
               </Card>
             </Grid>
+            <Grid sm={12} xs={12}>
+              <Card
+                css={{
+                  backdropFilter: 'saturate(200%) blur(8px)',
+                  background: 'rgba(255, 255, 255, 0.2)',
+                }}
+              >
+                <Card.Header>
+                  <Text h3>Projects</Text>
+                </Card.Header>
+                <Card.Divider />
+                <Card.Body>
+                  <Projects />
+                </Card.Body>
+              </Card>
+            </Grid>
             <Grid sm={4} xs={12}>
               <Card
                 css={{
@@ -112,23 +128,7 @@ function App() {
                 </Card.Body>
               </Card>
             </Grid>
-            <Grid sm={8} xs={12}>
-              <Card
-                css={{
-                  backdropFilter: 'saturate(200%) blur(8px)',
-                  background: 'rgba(255, 255, 255, 0.2)',
-                }}
-              >
-                <Card.Header>
-                  <Text h3>Projects</Text>
-                </Card.Header>
-                <Card.Divider />
-                <Card.Body>
-                  <Projects />
-                </Card.Body>
-              </Card>
-            </Grid>
-            <Grid sm={5} xs={12}>
+            <Grid sm={4} xs={12}>
               <Card
                 css={{
                   backdropFilter: 'saturate(200%) blur(8px)',
@@ -164,7 +164,7 @@ function App() {
                 </Card.Body>
               </Card>
             </Grid>
-            <Grid sm={7} xs={12}>
+            <Grid sm={4} xs={12}>
               <Card
                 css={{
                   backdropFilter: 'saturate(200%) blur(8px)',
