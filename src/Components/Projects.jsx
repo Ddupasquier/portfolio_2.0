@@ -2,12 +2,38 @@ import React from 'react';
 import { Collapse } from '@nextui-org/react';
 import ProjectItem from './ProjectItem';
 
-import simpleStyle from '../assets/simplestyles.gif'
-import pokedex from '../assets/pokedex1.0.gif'
-import nationalParks from '../assets/nationalpark.gif'
+import simpleStyle from '../assets/simplestyles.gif';
+import pokedex from '../assets/pokedex1.0.gif';
+import nationalParks from '../assets/nationalpark.gif';
+import marcusBot from '../assets/marcusBot.gif';
 
 function Projects() {
   const projectItems = [
+    {
+      title: 'MarcusBot (Sneak Peak)',
+      description:
+        'A social media management took which allows users to interact with other users and maintain hands free interactions.',
+      github: 'Under Construction',
+      live: 'Under Construction',
+      image: marcusBot,
+      tech: [
+        'React.js',
+        'Redux',
+        'JavaScript',
+        'SCSS',
+        'NextUI',
+        'Ruby on Rails',
+        'PostgreSQL',
+        'AWS',
+        'Heroku',
+        'Netflify',
+        'JWT',
+        'BCrypt',
+        'Selenium',
+        'Git',
+        'Github',
+      ],
+    },
     {
       title: 'SimpleStyles',
       description: 'A simple stylesheet library for React.',

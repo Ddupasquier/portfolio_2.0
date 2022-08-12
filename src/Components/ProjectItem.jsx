@@ -30,7 +30,7 @@ function ProjectItem({ project }) {
             </Text>
             <Text>{techs}</Text>
           </div>
-          <img src={project.image} alt={project.title} />
+          <img src={project.image} alt={project.title} style={{maxHeight: '30vh'}} />
         </div>
       </Collapse>
     </>
