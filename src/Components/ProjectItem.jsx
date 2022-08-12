@@ -3,16 +3,22 @@ import { Collapse, Text } from '@nextui-org/react';
 
 function ProjectItem({ project }) {
   const techs = project.tech.map((tech, i) => (
-    <>
+    <React.Fragment key={i}>
       {tech}
       {i !== project.tech.length - 1 && ', '}
-    </>
+    </React.Fragment>
   ));
 
   return (
     <>
       <Collapse title={project.title}>
-        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'space-between' }}>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '1rem',
+          }}
+        >
           <div>
             <Text>{project.title}</Text>
             <Text>{project.description}</Text>
@@ -33,7 +39,7 @@ function ProjectItem({ project }) {
           <img
             src={project.image}
             alt={project.title}
-            style={{ maxHeight: '30vh' }}
+            style={{ maxHeight:'30vh' }}
           />
         </div>
       </Collapse>

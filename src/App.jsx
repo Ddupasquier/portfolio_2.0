@@ -191,17 +191,31 @@ function App() {
         </div>
 
         <div
-          style={{
-            position: 'fixed',
-            top: '1rem',
-            right: '1rem',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            gap: '0.2rem',
-            zIndex: '1000',
-          }}
+          style={
+            window.innerWidth > 768
+              ? {
+                  position: 'fixed',
+                  top: '1rem',
+                  right: '2rem',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  gap: '0.2rem',
+                  zIndex: '1000',
+                }
+              : {
+                  position: 'fixed',
+                  bottom: '1rem',
+                  right: '2rem',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  gap: '0.2rem',
+                  zIndex: '1000',
+                }
+          }
         >
           {checked ? (
             <BsFillMoonStarsFill

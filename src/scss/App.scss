@@ -13,6 +13,14 @@ header {
   z-index: 1;
 }
 
+// mobile? header 100% width and no border radius
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    border-bottom-right-radius: 0;
+  }
+}
+
 header > div {
   display: flex;
   align-items: center;
@@ -38,6 +46,6 @@ header > div {
   position: relative;
   top: 4rem;
   .tech-icon {
-    width: 4vw;
+    width: 4.5vw;
   }
 }

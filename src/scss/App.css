@@ -13,6 +13,12 @@ header {
   z-index: 1;
 }
 
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    border-bottom-right-radius: 0;
+  }
+}
 header > div {
   display: flex;
   align-items: center;
@@ -39,6 +45,6 @@ header > div a:hover {
   top: 4rem;
 }
 .content .tech-icon {
-  width: 4vw;
+  width: 4.5vw;
 }
 /*# sourceMappingURL=App.css.map */
