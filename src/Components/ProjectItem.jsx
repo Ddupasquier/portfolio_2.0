@@ -39,7 +39,7 @@ function ProjectItem({ project }) {
           <img
             src={project.image}
             alt={project.title}
-            style={{ maxHeight:'30vh' }}
+            style={{ alignSelf: 'center', maxWidth: '50vw', aspectRatio: '1/1' }}
           />
         </div>
       </Collapse>
