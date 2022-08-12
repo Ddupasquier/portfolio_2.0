@@ -12,7 +12,7 @@ function ProjectItem({ project }) {
   return (
     <>
       <Collapse title={project.title}>
-        <div style={{ display: 'flex', gap: '1rem' }}>
+        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'space-between' }}>
           <div>
             <Text>{project.title}</Text>
             <Text>{project.description}</Text>
@@ -30,7 +30,11 @@ function ProjectItem({ project }) {
             </Text>
             <Text>{techs}</Text>
           </div>
-          <img src={project.image} alt={project.title} style={{maxHeight: '30vh'}} />
+          <img
+            src={project.image}
+            alt={project.title}
+            style={{ maxHeight: '30vh' }}
+          />
         </div>
       </Collapse>
     </>
