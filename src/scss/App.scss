@@ -5,10 +5,10 @@ body {
 header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   background-color: #666666;
   position: fixed;
-  padding: 1rem 1rem;
   border-bottom-right-radius: 8px;
   z-index: 1;
 }
@@ -20,7 +20,7 @@ header > div {
   a {
     color: white;
     cursor: pointer;
-    transition: .5s;
+    transition: 0.5s;
     &:hover {
       color: #868686;
     }

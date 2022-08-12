@@ -1,10 +1,12 @@
 import React from 'react';
 import { Text } from '@nextui-org/react';
+import Resume from '../assets/Dylan Dupasquier Resume Revised 5-16.pdf';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { AiFillFilePdf } from 'react-icons/ai';
 
 function Head() {
   return (
-    <header>
+    <header style={{ padding: '1.6rem 1rem 1rem 1rem' }}>
       <Text size="1.5rem">Dylan Dupasquier || Front End Developer</Text>
       <div>
         <a
@@ -22,6 +24,11 @@ function Head() {
           rel="noopener noreferrer"
         >
           <BsLinkedin />
+        </a>
+      </div>
+      <div>
+        <a href={Resume} target="_blank" rel="noopener noreferrer">
+          <AiFillFilePdf />
         </a>
       </div>
     </header>
