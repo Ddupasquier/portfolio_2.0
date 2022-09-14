@@ -12,6 +12,7 @@ import vsIcon from './visual-studio-code.svg';
 import ubuntuIcon from './ubuntu.svg';
 import gitIcon from './iconmonstr-github-1-240.png';
 import netlifyIcon from './netlify.svg';
+import svelteIcon from './svelte.png';
 
 export const icons = [
   { url: reactIcon, title: 'React' },
@@ -28,4 +29,5 @@ export const icons = [
   { url: ubuntuIcon, title: 'Ubuntu' },
   { url: gitIcon, title: 'Github' },
   { url: netlifyIcon, title: 'Netflify' },
+  { url: svelteIcon, title: 'Svelte' },
 ];
