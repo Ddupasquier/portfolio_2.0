@@ -35,7 +35,6 @@ export const projectItems = [
       'Headed front-end development of a cryptocurrency marketing platform',
     github: 'Private',
     live: 'Private',
-    image: pokedex,
     tech: [
       'Svelte',
       'SvelteKit',
