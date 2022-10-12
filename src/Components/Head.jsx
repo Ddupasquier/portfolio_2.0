@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from '@nextui-org/react';
-import Resume from '../assets/Dylan Dupasquier Resume Revised 5-16.pdf';
+import Resume from '../assets/Dylan Dupasquier Resume Updated 9_26_2022.pdf';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { AiFillFilePdf } from 'react-icons/ai';
 

@@ -3,7 +3,6 @@ import cssIcon from './css3-original-wordmark.svg';
 import scssIcon from './sass-original.svg';
 import jsIcon from './javascript-original.svg';
 import htmlIcon from './html5-original-wordmark.svg';
-import linuxIcon from './linux-original.svg';
 import railsIcon from './rails-original-wordmark.svg';
 import rubyIcon from './ruby-original.svg';
 import postgresIcon from './postgresql-original-wordmark.svg';
@@ -20,7 +19,6 @@ export const icons = [
   { url: scssIcon, title: 'SCSS' },
   { url: jsIcon, title: 'JavaScript' },
   { url: htmlIcon, title: 'HTML' },
-  { url: linuxIcon, title: 'Linux' },
   { url: railsIcon, title: 'Ruby on Rails' },
   { url: rubyIcon, title: 'Ruby' },
   { url: postgresIcon, title: 'PostgreSQL' },

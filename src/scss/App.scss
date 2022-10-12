@@ -43,9 +43,14 @@ header > div {
 .content {
   width: 90%;
   margin: auto;
+  padding-top: 4rem;
   position: relative;
   top: 4rem;
   .tech-icon {
-    width: 4vw;
+    width: 3vw;
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }

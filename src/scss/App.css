@@ -41,10 +41,14 @@ header > div a:hover {
 .content {
   width: 90%;
   margin: auto;
+  padding-top: 4rem;
   position: relative;
   top: 4rem;
 }
 .content .tech-icon {
-  width: 4vw;
+  width: 3vw;
+  transition: 0.5s;
 }
-/*# sourceMappingURL=App.css.map */
+.content .tech-icon:hover {
+  transform: scale(1.2);
+}

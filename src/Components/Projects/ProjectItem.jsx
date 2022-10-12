@@ -11,7 +11,7 @@ function ProjectItem({ project }) {
 
   return (
     <>
-      <Collapse title={project.title}>
+      <Collapse title={project.title} subtitle={project.description}>
         <div
           style={{
             display: 'flex',
@@ -20,8 +20,6 @@ function ProjectItem({ project }) {
           }}
         >
           <div>
-            <Text>{project.title}</Text>
-            <Text>{project.description}</Text>
             <Text>
               Github:{' '}
               <a href={project.github} target="_blank" rel="noreferrer">
@@ -30,17 +28,29 @@ function ProjectItem({ project }) {
             </Text>
             <Text>
               Live:{' '}
-              <a href={project.live} target="_blank" rel="noreferrer">
+              <a
+                href={project.live}
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled="true"
+              >
                 {project.live}
               </a>
             </Text>
             <Text>{techs}</Text>
           </div>
-          <img
-            src={project.image}
-            alt={project.title}
-            style={{ alignSelf: 'center', maxWidth: '50vw', aspectRatio: '1/1' }}
-          />
+
+          {project.image && (
+            <img
+              src={project.image}
+              alt={project.title}
+              style={{
+                alignSelf: 'center',
+                maxWidth: '50vw',
+                aspectRatio: '1/1',
+              }}
+            />
+          )}
         </div>
       </Collapse>
     </>
