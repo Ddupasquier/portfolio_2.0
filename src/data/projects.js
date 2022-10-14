@@ -1,6 +1,6 @@
-import simpleStyle from '../assets/simplestyles.gif';
-import pokedex from '../assets/pokedex1.0.gif';
-import nationalParks from '../assets/nationalpark.gif';
+import simpleStyle from '../assets/simplestyles.webm';
+import pokedex from '../assets/pokedex1.0.webm';
+import nationalParks from '../assets/nationalpark.webm';
 // import marcusBot from '../assets/marcusBot.gif';
 
 export const projectItems = [

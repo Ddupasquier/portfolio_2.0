@@ -1,4 +1,5 @@
 import React from 'react';
+import LinesBg from '../assets/abstract-lines (1).webp';
 
 function Background() {
   const bgStyle = {
@@ -11,7 +12,7 @@ function Background() {
 
   return (
     <img
-      src="https://i.ibb.co/KFXV3g0/abstract-lines-1.png"
+      src={LinesBg}
       alt="abstract-lines-1"
       border="0"
       style={bgStyle}

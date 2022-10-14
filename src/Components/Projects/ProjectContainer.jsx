@@ -14,7 +14,7 @@ function ProjectContainer() {
         <Text h3>Projects</Text>
       </Card.Header>
       <Card.Divider />
-      <Card.Body>
+      <Card.Body css={{ overflow: 'hidden' }}>
         <Projects />
       </Card.Body>
     </Card>

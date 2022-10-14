@@ -11,15 +11,20 @@ function ProjectItem({ project }) {
 
   return (
     <>
-      <Collapse title={project.title} subtitle={project.description}>
+      <Collapse
+        title={project.title}
+        subtitle={project.description}
+      >
         <div
           style={{
             display: 'flex',
-            flexDirection: 'column',
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            justifyContent: 'space-between',
             gap: '1rem',
           }}
         >
-          <div>
+          <div style={{ flex: '6' }}>
             <Text>
               Github:{' '}
               <a href={project.github} target="_blank" rel="noreferrer">
@@ -41,15 +46,22 @@ function ProjectItem({ project }) {
           </div>
 
           {project.image && (
-            <img
-              src={project.image}
-              alt={project.title}
-              style={{
-                alignSelf: 'center',
-                maxWidth: '50vw',
-                aspectRatio: '1/1',
-              }}
-            />
+            // <img
+            //   src={project.image}
+            //   alt={project.title}
+            //   style={{
+            //     alignSelf: 'center',
+            //     maxWidth: '50vw',
+            //     aspectRatio: '1/1',
+            //   }}
+            // />
+            <div
+              style={{ display: 'flex', flex: '6', justifyContent: 'center' }}
+            >
+              <video controls width="400">
+                <source src={project.image} type="video/webm" />
+              </video>
+            </div>
           )}
         </div>
       </Collapse>
