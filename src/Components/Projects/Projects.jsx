@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Collapse } from '@nextui-org/react';
-import ProjectItem from './ProjectItem';
 import { projectItems } from '../../data/projects';
+
+const ProjectItem = lazy(() => import('./ProjectItem'));
+// import ProjectItem from ;
 
 function Projects() {
   return (
     <Collapse.Group divider="true">
       {projectItems.map((project, index) => (
-        <ProjectItem key={index} project={project} index={index} />
+        <Suspense key={index} fallback={<div>Loading...</div>}>
+          <ProjectItem project={project} index={index} />
+        </Suspense>
       ))}
     </Collapse.Group>
   );
