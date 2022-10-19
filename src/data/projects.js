@@ -30,26 +30,9 @@ export const projectItems = [
     ],
   },
   {
-    title: 'MarketProphit',
-    description:
-      'Headed front-end development of a cryptocurrency marketing platform',
-    github: 'Private',
-    live: 'Private',
-    tech: [
-      'Svelte',
-      'SvelteKit',
-      'SCSS',
-      'Cheerio',
-      'D3',
-      'Chart.js',
-      'Javascript',
-      'HTML5',
-    ],
-  },
-  {
     title: 'SimpleStyles',
     description:
-      'Developed a utility library to ease developer workflow when building React apps, allowing for the easy search and use of common React components, saving significant development time.',
+    'Developed a utility library to ease developer workflow when building React apps, allowing for the easy search and use of common React components, saving significant development time.',
     github: 'https://github.com/Ddupasquier/phase-5-cssreact-library',
     live: 'https://simplestyles.herokuapp.com/',
     image: simpleStyle,
@@ -81,8 +64,8 @@ export const projectItems = [
     description: 'A React app to display a list of National Parks.',
     github:
       'https://github.com/Ddupasquier/phase-4-project-mincho-dylandupasquier',
-    live: 'https://national-parks-fi.herokuapp.com/',
-    image: nationalParks,
+      live: 'https://national-parks-fi.herokuapp.com/',
+      image: nationalParks,
     tech: [
       'React.js',
       'Ruby on Rails',
@@ -95,6 +78,23 @@ export const projectItems = [
       'Heroku',
       'Postman',
       'BCrypt',
+    ],
+  },
+  {
+    title: 'MarketProphit',
+    description:
+      'Headed front-end development of a cryptocurrency marketing platform',
+    github: 'Private',
+    live: 'Private',
+    tech: [
+      'Svelte',
+      'SvelteKit',
+      'SCSS',
+      'Cheerio',
+      'D3',
+      'Chart.js',
+      'Javascript',
+      'HTML5',
     ],
   },
 ];
