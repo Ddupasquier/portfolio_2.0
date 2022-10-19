@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 // import './scss/App.css';
 // import { NextUIProvider, createTheme, Grid } from '@nextui-org/react';
-// import Background from './Components/Background';
+import Background from './Components/Background';
 // import Head from './Components/Head';
 // import Switch from './Components/Switch';
 // import Intro from './Components/Intro';
@@ -23,10 +23,21 @@ function App() {
   // const [checked, setChecked] = useState(false);
 
   return (
-    "Under Construction"
+    <>
+      <div
+        className="temp-container"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <h1>Under Construction</h1>
+      </div>
+      <Background />
+    </>
     // <div className="App">
     //   <NextUIProvider theme={!checked ? lightTheme : darkTheme}>
-    //     <Background />
     //     <Head />
     //     <div className="content">
     //       <Grid.Container gap={3}>
